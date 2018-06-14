@@ -1,0 +1,46 @@
+/* The font throughout the page is Helvetica. */
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+
+/* The main heading has a background image. */
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg);
+
+  /* background-image: url("./resources/images/pattern.jpeg"); */
+  /* I am unclear as to why specifying the path on my PC did not work? */
+}
+
+
+/* The main sections of the page are h2's. White text on colored backgrounds. */
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+
+/* The rules for each of the coloured backgrounds. */
+.brushes h2 {
+  background-color: mediumspringgreen;
+}
+
+.frames h2 {
+  background-color: lightcoral;
+}
+
+.paint h2 {
+  background-color: skyblue;
+}
+
+
+/* The price text has its own color setting within paragraphs */
+.price {
+  font-weight: bold;
+  color: blue;
+}
